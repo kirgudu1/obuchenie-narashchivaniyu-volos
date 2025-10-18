@@ -1,0 +1,1254 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Наращивание волос — обучение и курсы</title>
+  <meta name="description" content="Сайт об обучении наращиванию волос: техники, инструменты, курсы, карьера.">
+
+  <meta property="og:title" content="Наращивание волос — обучение и курсы">
+  <meta property="og:description" content="Где учиться наращиванию волос, какие техники востребованы и как начать карьеру мастера.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+
+  <style>
+:root{
+  --bg:#faf7f3;
+  --card:#ffffff;
+  --ink:#1f2937;
+  --muted:#6b7280;
+  --brand:#c98e5b;   /* тёплый карамельный */
+  --brand-2:#2f3e46; /* холодный серо-синий */
+  --accent:#f5e6d3;  /* светлая кожа/лён */
+  --line:#d6c7b6;    /* «нитка» */
+  --ring: 0 10px 30px rgba(0,0,0,.06);
+  --radius:18px;
+}
+
+/* Base */
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+  color:var(--ink);
+  background:
+    radial-gradient(1200px 600px at 110% -10%, rgba(201,142,91,.06), transparent 60%),
+    radial-gradient(900px 500px at -10% 10%, rgba(47,62,70,.06), transparent 55%),
+    var(--bg);
+  line-height:1.65;
+  letter-spacing:.2px;
+}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+
+/* Header */
+header{
+  position:sticky; top:0; z-index:50;
+  backdrop-filter:saturate(180%) blur(10px);
+  background:rgba(250,247,243,.7);
+  border-bottom:1px dashed var(--line);
+}
+.nav{
+  display:flex; align-items:center; justify-content:space-between; gap:16px;
+  padding:14px 0;
+  position: relative; /* важен для позиционирования выпадающего меню */
+}
+.brand{
+  display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--ink);
+  font-weight:700; letter-spacing:.3px;
+}
+.brand svg{width:30px;height:30px}
+nav a{
+  text-decoration:none; color:var(--ink);
+  padding:8px 12px; border-radius:10px;
+  transition:all .2s ease;
+}
+nav a:hover{background:var(--accent)}
+.nav-links{display:flex; gap:8px}
+.nav-toggle{display:none}
+
+/* Hero */
+.hero{ padding:64px 0 40px; }
+.hero-inner{ display:grid; grid-template-columns:1.2fr .8fr; gap:28px; align-items:center; }
+.tag{display:inline-flex; gap:8px; align-items:center; padding:6px 10px; border:1px dashed var(--line); border-radius:999px; background:#fff;}
+.title{font-size:clamp(28px,4vw,44px); line-height:1.15; margin:14px 0 10px;}
+.subtitle{color:var(--muted); max-width:60ch}
+.cta{display:flex; gap:12px; margin-top:22px; flex-wrap:wrap}
+.btn{
+  display:inline-flex; align-items:center; gap:10px;
+  padding:12px 18px; border-radius:12px; text-decoration:none; font-weight:600;
+  border:1px solid transparent; transition:all .2s;
+}
+.btn-primary{background:var(--brand); color:white; box-shadow:var(--ring)}
+.btn-primary:hover{transform:translateY(-1px)}
+.btn-ghost{background:white; border-color:var(--line); color:var(--ink)}
+.btn-ghost:hover{background:var(--accent)}
+
+.hero-card{
+  background:linear-gradient(180deg, #fff, #fffaf4);
+  border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--ring);
+  padding:20px; position:relative; overflow:hidden;
+}
+.stitches{
+  position:absolute; inset:14px; border:2px dashed var(--line); border-radius:calc(var(--radius) - 8px);
+  pointer-events:none;
+}
+
+/* Figure with real <img> */
+.figure{
+  position: relative;
+  aspect-ratio: 4/5;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: linear-gradient(135deg, rgba(201,142,91,.08), rgba(47,62,70,.08));
+}
+.figure img{
+  width:100%; height:100%; object-fit:cover; display:block;
+}
+.figure-caption{
+  position:absolute; bottom:0; left:0; width:100%;
+  padding:10px 12px; font-size:14px; color:#333; text-align:center;
+  background: rgba(255,255,255,0.7); backdrop-filter: blur(6px);
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+/* Sections */
+section{padding:38px 0}
+.section-title{font-size:clamp(22px,2.6vw,32px); margin:0 0 16px}
+.lede{color:var(--muted); max-width:70ch}
+
+.cards{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:18px; }
+.card{
+  background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px;
+  box-shadow:var(--ring); transition:transform .2s ease;
+}
+.card:hover{transform:translateY(-3px)}
+.card h3{margin:.4rem 0 .2rem; font-size:1.1rem}
+.eyebrow{font-size:.8rem; letter-spacing:.12em; text-transform:uppercase; color:var(--brand-2)}
+
+.list{
+  display:grid; grid-template-columns:1fr 1fr; gap:12px;
+  margin:16px 0; padding:0; list-style:none;
+}
+.list li{background:#fff; border:1px dashed var(--line); border-radius:10px; padding:10px 12px}
+
+.note{
+  background:linear-gradient(180deg,#fff, #fff7ee);
+  border:1px solid var(--line); border-radius:14px; padding:16px 18px; box-shadow:var(--ring);
+}
+
+/* Courses */
+.course-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:16px}
+.course{
+  background:#fff; border:1px solid var(--line); border-radius:16px; padding:16px;
+  display:flex; flex-direction:column; gap:8px; box-shadow:var(--ring)
+}
+.course-badge{font-size:.77rem; color:#fff; background:var(--brand-2); padding:4px 8px; border-radius:999px; width:max-content}
+.course a{
+  margin-top:auto; align-self:flex-start;
+  text-decoration:none; font-weight:700; color:#fff;
+  background:var(--brand); padding:10px 14px; border-radius:10px; transition:opacity .2s
+}
+.course a:hover{opacity:.9}
+
+/* Footer */
+footer{
+  margin-top:20px; padding:36px 0; background:#fff; border-top:1px dashed var(--line);
+}
+.foot-grid{display:grid; grid-template-columns:2fr 1fr 1fr; gap:16px}
+.foot-grid a{color:var(--ink); text-decoration:none}
+.foot-grid a:hover{text-decoration:underline}
+.small{color:var(--muted); font-size:.9rem}
+
+/* Cities grid */
+.city-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:12px;
+  margin:16px 0 0;
+  padding:0;
+  list-style:none;
+}
+.city-grid li a{
+  display:block;
+  background:#fff;
+  border:1px dashed var(--line);
+  border-radius:10px;
+  padding:10px 12px;
+  text-decoration:none;
+  color:var(--ink);
+  transition:background .2s ease, transform .15s ease;
+}
+.city-grid li a:hover{
+  background:var(--accent);
+  transform:translateY(-1px);
+}
+
+/* ===== FAQ Accordion ===== */
+.faq-accordion{ display:grid; gap:12px; margin-top:16px; }
+.faq-item{
+  background:#fff; border:1px solid var(--line); border-radius:16px; box-shadow: var(--ring);
+  overflow:hidden;
+}
+.faq-q{
+  list-style:none; display:flex; align-items:center; justify-content:space-between; gap:12px;
+  padding:14px 16px; cursor:pointer; font-weight:600;
+}
+.faq-q::-webkit-details-marker{ display:none; }
+.faq-q svg{ transition: transform .2s ease; }
+.faq-item[open] .faq-q svg{ transform: rotate(180deg); }
+.faq-a{
+  padding:0 16px 14px 16px; color: var(--ink);
+  background: linear-gradient(180deg,#fff, #fffaf4);
+  border-top: 1px dashed var(--line);
+}
+.faq-a p{ margin:12px 0 0; }
+
+/* ===== Hamburger icon ===== */
+.nav-toggle{
+  display:none; /* показываем на мобилке */
+  position:relative;
+  width:44px; height:40px;
+  border:1px dashed var(--line);
+  border-radius:10px;
+  background:#fff;
+}
+.nav-toggle .burger,
+.nav-toggle .burger::before,
+.nav-toggle .burger::after{
+  content:"";
+  position:absolute; left:10px; right:10px;
+  height:2px; background:var(--ink);
+  transition:transform .2s ease, opacity .2s ease, top .2s ease, bottom .2s ease;
+}
+.nav-toggle .burger{ top:19px; }
+.nav-toggle .burger::before{ top:11px; }
+.nav-toggle .burger::after{ bottom:11px; }
+
+/* open -> X */
+.nav.open .nav-toggle .burger{ transform:rotate(45deg); }
+.nav.open .nav-toggle .burger::before{ opacity:0; }
+.nav.open .nav-toggle .burger::after{ transform:rotate(-90deg); bottom:auto; top:19px; }
+
+/* ===== Mobile ===== */
+@media (max-width: 980px){
+  .hero-inner{grid-template-columns:1fr}
+  .cards{grid-template-columns:1fr;gap:12px}
+  .list{grid-template-columns:1fr}
+  .course-grid{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr}
+  .city-grid{grid-template-columns:1fr}
+
+  /* скрываем меню по умолчанию */
+  .nav .nav-links{ display:none; }
+
+  /* кнопка-гамбургер */
+  .nav-toggle{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    padding:8px 12px;
+    border:1px dashed var(--line);
+    border-radius:10px;
+    background:#fff;
+    cursor:pointer;
+  }
+
+  /* раскрытое меню */
+  .nav.open .nav-links{
+    display:flex !important;
+    position:absolute;
+    top:56px; right:20px;
+    flex-direction:column; gap:8px;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:12px;
+    box-shadow:var(--ring);
+    padding:8px;
+    transform-origin: top right;
+    animation: menuIn .15s ease-out;
+    z-index:100;
+  }
+
+  @keyframes menuIn{
+    from{ opacity:0; transform:translateY(-6px) scale(.98); }
+    to{ opacity:1; transform:translateY(0) scale(1); }
+  }
+
+  /* FAQ spacing tweaks */
+  .faq-accordion{ gap:10px; }
+  .faq-q{ padding:12px 14px; }
+  .faq-a{ padding:0 14px 12px 14px; }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce){
+  *{animation:none!important; transition:none!important}
+}
+
+
+/* ===== Courses compact ===== */
+.courses .course-list{
+  display:grid; grid-template-columns:1fr; gap:16px;
+  counter-reset: course;
+}
+.course-card{
+  background:#fff; border:1px solid var(--line); border-radius:16px;
+  padding:14px; box-shadow:var(--ring);
+  counter-increment: course;
+}
+.course-topline{
+  display:flex; align-items:center; gap:10px; margin-bottom:6px;
+}
+.course-num::before{
+  content:"Курс " counter(course);
+  display:inline-block; font-weight:700; color:var(--muted);
+  background:#fff; border:1px dashed var(--line); border-radius:999px;
+  padding:3px 8px; font-size:.8rem;
+}
+.course-title{ margin:0; font-size:1.25rem; line-height:1.2; }
+.course-org{ margin:.25rem 0 .5rem; color:var(--muted); font-size:.95rem; }
+
+/* двухколоночная компакт-сетка на десктопе */
+.course-compact .course-compact-grid{
+  display:grid; grid-template-columns:1.15fr .85fr; gap:16px;
+}
+.meta-grid{
+  display:grid; grid-template-columns:repeat(2,minmax(220px,1fr));
+  gap:6px 12px; margin:.6rem 0 .8rem; font-size:.95rem;
+}
+.meta-grid.meta-tight{ grid-template-columns:repeat(2,minmax(240px,1fr)); }
+.meta-grid .price{ color:var(--brand); font-weight:700; }
+.meta-grid .old{ text-decoration:line-through; opacity:.6; }
+
+.course-section{ margin-top:.8rem; }
+.course-section h4{ margin:0 0 .4rem; font-size:1.06rem; }
+
+/* компактные цифры программы */
+.program-stats{ display:flex; flex-wrap:wrap; gap:6px 10px; margin:0 0 .5rem; padding:0; list-style:none; }
+.program-stats.compact li{
+  border:1px dashed var(--line); border-radius:999px; padding:4px 8px; background:#fff; font-size:.85rem;
+}
+
+/* таблица — компакт */
+.program-table table{ width:100%; border-collapse:collapse; font-size:.95rem; }
+.program-table td{
+  border-bottom:1px solid var(--line);
+  padding:.5rem .6rem; vertical-align:top;
+}
+.program-table.compact td:first-child{ width:34%; }
+.program-table.compact td:nth-child(2){ width:20%; }
+
+/* плюсы/минусы */
+.pros-cons{
+  display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:.8rem;
+}
+.pros-cons h4{ margin-bottom:.3rem; }
+.pros ul, .cons ul{ margin:0; padding-left:1.1rem; }
+.pros li::marker{ content:"✓ "; color:green; }
+.cons li::marker{ content:"– "; color:#b84; }
+
+/* footer карточки */
+.course-footer{
+  margin-top:1rem; display:flex; align-items:center; gap:12px; flex-wrap:wrap;
+}
+.course-footer .btn{
+  background:var(--brand); color:#fff; padding:.55rem .9rem; border-radius:10px; text-decoration:none; font-weight:600;
+}
+.course-footer .btn:hover{ opacity:.9; }
+
+/* адаптив */
+@media (max-width: 980px){
+  .course-compact .course-compact-grid{ grid-template-columns:1fr; }
+  .meta-grid, .meta-grid.meta-tight{ grid-template-columns:1fr; }
+  .course-title{ font-size:1.2rem; }
+  .program-table.compact td:first-child,
+  .program-table.compact td:nth-child(2){ width:auto; }
+}
+
+
+/* === Внутренние под-карточки и ритм === */
+.course-card{ padding:18px 20px; }
+.course-topline{ margin-bottom:10px; }
+.course-title{ font-size:1.28rem; letter-spacing:.2px; }
+
+.subcard{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:14px;
+  box-shadow: var(--ring);
+}
+.course-compact .course-compact-grid{
+  display:grid;
+  grid-template-columns: 1.05fr 0.95fr; /* компактнее */
+  gap:14px;
+}
+
+/* текстовая иерархия */
+.course-org{ margin:.1rem 0 .7rem; color:var(--muted); font-size:.95rem; }
+.course-section{ margin-top:.7rem; }
+.course-section h4{ font-size:1.05rem; margin:0 0 .45rem; }
+.section-right{ margin-bottom:.6rem; }
+
+/* компактная мета: ровные строки, тонкий разделитель */
+.meta-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(240px,1fr));
+  gap:8px 14px;
+  margin:.5rem 0 .9rem;
+  font-size:.95rem;
+}
+.meta-grid > div{
+  padding:6px 0;
+  border-bottom:1px dashed var(--line);
+}
+.meta-grid > div:nth-last-child(-n+2){ border-bottom:none; } /* последняя строка в сетке без линии */
+.meta-grid .price{ color:var(--brand); font-weight:700; }
+.meta-grid .old{ text-decoration:line-through; opacity:.55; }
+
+/* программа: визуальное сжатие и «воздух» справа */
+.program-stats.compact li{
+  padding:5px 10px; font-size:.85rem;
+}
+.program-table table{ width:100%; border-collapse:separate; border-spacing:0; font-size:.95rem; }
+.program-table td{
+  padding:.55rem .6rem;
+  border-bottom:1px solid var(--line);
+}
+.program-table tr:last-child td{ border-bottom:none; }
+.program-table.compact td:first-child{ width:36%; white-space:nowrap; }
+.program-table.compact td:nth-child(2){ width:22%; white-space:nowrap; }
+
+/* плюсы/минусы в единой под-карточке, колонками */
+.pros-cons{
+  display:grid; grid-template-columns:1fr 1fr; gap:18px;
+  margin-top:14px;
+}
+.pros-cons h4{ margin:.2rem 0 .4rem; }
+.pros ul, .cons ul{ margin:0; padding-left:1.1rem; }
+.pros li{ margin:.28rem 0; }
+.cons li{ margin:.28rem 0; }
+.pros li::marker{ content:"✓ "; color:#0a8a2a; }
+.cons li::marker{ content:"– "; color:#b87426; }
+
+/* низ карточки */
+.course-footer{
+  margin-top:14px;
+  display:flex; gap:10px; flex-wrap:wrap; align-items:center;
+}
+.course-footer .btn{ padding:.5rem .9rem; border-radius:10px; }
+
+/* разделители и общий ритм секции курсов */
+.courses .course-list{ gap:20px; }
+.courses .course-card + .course-card{ position:relative; }
+.courses .course-card + .course-card::before{
+  content:"";
+  position:absolute; top:-10px; left:0; right:0;
+  height:1px; background:var(--line);
+  opacity:.8;
+}
+
+/* адаптив: собираем в одну колонку, чуть больше «воздуха» */
+@media (max-width: 980px){
+  .course-compact .course-compact-grid{ grid-template-columns:1fr; gap:12px; }
+  .subcard{ padding:12px; }
+  .meta-grid{ grid-template-columns:1fr; }
+  .meta-grid > div{ border-bottom:1px dashed var(--line); }
+  .meta-grid > div:last-child{ border-bottom:none; }
+  .program-table.compact td:first-child,
+  .program-table.compact td:nth-child(2){ width:auto; white-space:normal; }
+}
+
+/* ===== Ribbon Course Card ===== */
+.course-card.ribbon{
+  counter-increment: course;
+  background:#fff; border:1px solid var(--line); border-radius:16px;
+  box-shadow:var(--ring); padding:16px 18px; display:block;
+}
+.course-card.ribbon + .course-card.ribbon{ margin-top:16px; }
+
+.course-head{ display:grid; grid-template-columns:auto 1fr; align-items:center; gap:10px 12px; margin-bottom:10px; }
+.course-head .course-num::before{
+  content:"Курс " counter(course);
+  display:inline-block; font-weight:700; color:var(--muted);
+  border:1px dashed var(--line); border-radius:999px; padding:3px 8px; font-size:.8rem;
+}
+.course-head .course-title{ margin:0; font-size:1.26rem; line-height:1.2; }
+.course-head .course-org{ grid-column:1 / -1; color:var(--muted); font-size:.95rem; margin-top:-2px; }
+
+/* тело: лента + программа */
+.course-body{ display:grid; grid-template-columns: minmax(420px,1.2fr) minmax(340px,0.8fr); gap:14px; }
+@media (max-width: 980px){
+  .course-body{ grid-template-columns:1fr; }
+}
+
+/* лента с чипами */
+.chiprail{
+  display:flex; flex-wrap:wrap; gap:8px; margin:0; padding:0; list-style:none;
+  align-content:flex-start;
+}
+.chip{
+  display:inline-flex; gap:6px; align-items:center;
+  background:#fff; border:1px dashed var(--line); border-radius:999px;
+  padding:6px 10px; font-size:.92rem; white-space:nowrap;
+}
+.chip b{ font-weight:700; }
+.chip s{ opacity:.55; }
+.chip .price{ color:var(--brand); }
+.chip.hot{ background:linear-gradient(180deg,#fff, #fff7ee); border-color:var(--line); }
+.chip a{ color:var(--ink); text-decoration:none; }
+.chip a:hover{ text-decoration:underline; }
+
+/* программа: аккордеон на <details> */
+.program h4{ margin:0 0 .5rem; font-size:1.06rem; }
+.program-stats.mini{
+  display:flex; gap:8px; margin:0 0 .4rem; padding:0; list-style:none;
+}
+.program-stats.mini li{
+  border:1px dashed var(--line); border-radius:999px; padding:4px 8px; font-size:.84rem;
+}
+.prog-item{
+  border:1px solid var(--line); border-radius:10px; background:#fff; margin-bottom:8px; overflow:hidden;
+}
+.prog-item[open]{ box-shadow:var(--ring); }
+.prog-item summary{
+  list-style:none; cursor:pointer; user-select:none;
+  padding:10px 12px; display:flex; align-items:center; justify-content:space-between; gap:10px;
+  font-weight:600;
+}
+.prog-item summary::-webkit-details-marker{ display:none; }
+.prog-item summary em{ font-style:normal; color:var(--muted); font-weight:500; font-size:.92rem; }
+.prog-item p{ padding:0 12px 12px; margin:0; color:var(--ink); }
+
+/* «О курсе» */
+.course-intro{ margin-top:12px; }
+.course-intro h4{ margin:0 0 .4rem; font-size:1.06rem; }
+.course-intro p{ margin:0; color:var(--ink); }
+
+/* Плюсы/минусы блок */
+.pm{
+  margin-top:12px; display:grid; grid-template-columns:1fr 1fr; gap:14px;
+  background:#fff; border:1px solid var(--line); border-radius:12px; padding:12px;
+}
+.pm h4{ margin:.1rem 0 .3rem; font-size:1.02rem; }
+.pm ul{ margin:0; padding-left:1.1rem; }
+.pm li{ margin:.28rem 0; }
+.pm .pros li::marker{ content:"✓ "; color:#0a8a2a; }
+.pm .cons li::marker{ content:"– "; color:#b87426; }
+@media (max-width: 980px){
+  .pm{ grid-template-columns:1fr; }
+}
+
+/* CTA */
+.course-cta{
+  margin-top:12px; display:flex; gap:10px; flex-wrap:wrap; align-items:center;
+}
+.course-cta .btn{
+  background:var(--brand); color:#fff; padding:.55rem .95rem; border-radius:10px; text-decoration:none; font-weight:600;
+}
+.course-cta .btn:hover{ opacity:.9; }
+
+
+
+
+/* ====== Neo card (как на скрине) ====== */
+.courses .course-list{ counter-reset:course; }
+.course-card.neo{ counter-increment:course; background:#fff; border:1px solid #f3d89a; border-radius:16px; padding:16px; box-shadow: 0 6px 18px rgba(255,179,0,.12), inset 0 0 0 2px #fff; }
+.course-card.neo + .course-card.neo{ margin-top:18px; }
+
+/* шапка */
+.neo-head{ position:relative; padding:10px 12px 12px; border:2px solid #ffe6ab; border-radius:12px; background:#fff; box-shadow: 0 6px 18px rgba(255,179,0,.12); }
+.neo-head .badge-num::before{
+  content:"Курс " counter(course);
+  display:inline-block; background:#fff8e1; border:1px solid #ffd56c; color:#8a6b00;
+  border-radius:999px; padding:4px 10px; font-size:.82rem; font-weight:700;
+}
+.neo-title{ margin:6px 0 2px; text-align:center; color:#e14a2a; font-weight:800; letter-spacing:.8px; }
+.neo-sub{ text-align:center; color:#666; font-size:.95rem; }
+.linkish{ color:#0a66c2; text-decoration:underline; text-decoration-thickness:.5px; text-underline-offset:2px; }
+
+/* мета */
+.neo-body{ padding:14px 10px 0; }
+.neo-meta{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:1fr 1fr; gap:8px 16px; }
+@media (max-width:980px){ .neo-meta{ grid-template-columns:1fr; } }
+.neo-meta li{ background:#fff; border:1px solid #f1efe9; border-radius:10px; padding:8px 10px; box-shadow: var(--ring); }
+.m-key{ color:#444; font-weight:600; }
+.m-accent{ color:#e14a2a; font-weight:700; }
+.m-old{ text-decoration:line-through; color:#8c8c8c; margin-left:6px; }
+.m-hot{ color:#d35400; font-weight:700; }
+.tel{ color:#e14a2a; text-decoration:none; }
+.tel:hover{ text-decoration:underline; }
+
+/* разделы */
+.neo-section{ margin-top:18px; }
+.neo-h4{ margin:0 0 .6rem; text-align:center; font-size:1.06rem; }
+.neo-section p{ margin:0; }
+
+/* pills */
+.neo-pills{ display:flex; flex-wrap:wrap; gap:8px; margin:0 0 .8rem; padding:0; list-style:none; justify-content:center; }
+.neo-pills li{
+  background:#fff8e8; border:1px solid #ffd9a6; color:#8a6b00;
+  border-radius:999px; padding:6px 10px; font-size:.9rem;
+}
+
+/* таблица */
+.neo-table table{ width:100%; border-collapse:separate; border-spacing:0; background:#fff; overflow:hidden; border-radius:12px; box-shadow: var(--ring); }
+.neo-table thead th{
+  background:#fff4d6; border-bottom:1px solid #ffe0a8; padding:10px 12px; text-align:left; font-weight:700;
+}
+.neo-table td{ border-bottom:1px solid #f0f0f0; padding:10px 12px; vertical-align:top; }
+.neo-table tr:last-child td{ border-bottom:none; }
+
+/* плюсы/минусы */
+.neo-card{ display:grid; grid-template-columns:1fr 1fr; gap:16px; background:#fff; border:1px solid #ffe0a8; border-radius:12px; padding:12px; box-shadow: var(--ring); }
+@media (max-width:980px){ .neo-card{ grid-template-columns:1fr; } }
+.pm-list{ margin:0; padding-left:1.1rem; }
+.pm-list.pros li::marker{ content:"✓ "; color:#0a8a2a; }
+.pm-list.cons li::marker{ content:"– "; color:#b87426; }
+
+/* CTA */
+.neo-cta{ margin-top:16px; display:flex; justify-content:center; }
+.neo-cta .btn{ background:#ff6a2d; }
+
+
+
+
+.btn {
+  display: inline-block;
+  background: #c9864b;         /* карамельный, как на скрине */
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px 22px;
+  border-radius: 10px;         /* мягкие скругления */
+  text-decoration: none;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+}
+
+.btn:hover {
+  background: #a56d3e;         /* немного темнее при наведении */
+  box-shadow: 0 5px 10px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  background: #8d5e35;         /* эффект нажатия */
+  transform: translateY(0);
+}
+
+
+/* === LSI BENEFITS GRID === */
+.benefits.lsi {
+  padding: 60px 0;
+  background: #fafafa;
+}
+
+.benefits.lsi .section-title {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+}
+
+.lsi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.lsi-card {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 16px;
+  padding: 1.6rem 1.4rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.lsi-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+.lsi-badge {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+.lsi-badge .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff80ab, #ff4081);
+  margin-right: 8px;
+}
+
+.lsi-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  margin: 0 0 0.4rem 0;
+}
+
+.lsi-text {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .benefits.lsi {
+    padding: 40px 0;
+  }
+  .lsi-card {
+    padding: 1.2rem;
+  }
+  .lsi-title {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+/* рекламная врезка */
+.promo-disclaimer {
+  border-top: 1px dashed rgba(0,0,0,0.1);
+  background: #fafafa;
+  margin-top: 32px;
+  padding: 18px 0;
+}
+.note-ads {
+  margin: 0;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #666;
+}
+.note-ads strong {
+  color: #222;
+  font-weight: 600;
+}
+
+
+
+
+
+/* ============================
+   Мобильная адаптация блока "Программа обучения"
+   (исправляет вылезание за границы экрана ТОЛЬКО средствами CSS)
+   ============================ */
+
+/* 1) Плашки: разрешаем перенос и многострочность */
+.neo-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.neo-pills li {
+  max-width: 100%;
+  white-space: nowrap;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #f5f5f7;
+  font-size: 14px;
+  line-height: 1.2;
+}
+@media (max-width: 480px) {
+  .neo-pills li {
+    white-space: normal;          /* разрешаем перенос на очень узких экранах */
+    word-break: break-word;
+    hyphens: auto;
+  }
+}
+
+/* 2) Таблица: горизонтальная прокрутка без поломки вёрстки */
+.neo-table {
+  width: 100%;
+  overflow-x: auto;               /* включаем прокрутку при узком экране */
+  -webkit-overflow-scrolling: touch;
+}
+.neo-table table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;            /* фиксированная вёрстка => перенос содержимого */
+  min-width: 640px;               /* не даём таблице сжиматься меньше минимума */
+}
+
+/* 3) Ячейки: перенос длинных слов/фраз */
+.neo-table th,
+.neo-table td {
+  padding: 10px 12px;
+  vertical-align: top;
+  text-align: left;
+  word-break: break-word;         /* переносим длинные слова */
+  overflow-wrap: anywhere;        /* переносим любые длинные токены */
+  hyphens: auto;
+  border-bottom: 1px solid #eee;
+  background-clip: padding-box;   /* чтобы фон не "лез" за границы при скролле */
+}
+
+/* 4) Узкие экраны: уменьшаем плотность и типографику */
+@media (max-width: 768px) {
+  .neo-section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .neo-h4 {
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 12px;
+  }
+  .neo-table th,
+  .neo-table td {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+}
+
+/* 5) Колонки: даём первой колонке (название блока) больше места на перенос */
+@media (max-width: 768px) {
+  .neo-table table th:nth-child(1),
+  .neo-table table td:nth-child(1) { width: 42%; }
+  .neo-table table th:nth-child(2),
+  .neo-table table td:nth-child(2) { width: 22%; white-space: nowrap; }
+  .neo-table table th:nth-child(3),
+  .neo-table table td:nth-child(3) { width: 36%; }
+}
+
+/* 6) Мелкие правки для лучшего UX при скролле */
+.neo-table::-webkit-scrollbar {
+  height: 8px;
+}
+.neo-table::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,.15);
+  border-radius: 4px;
+}
+.neo-table::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+/* ======== ДОРАБОТКА ПРОГРАММЫ ОБУЧЕНИЯ ======== */
+
+/* Отступ между бейджами и таблицей */
+.neo-table {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 16px; /* 🔸 расстояние между бейджами и таблицей */
+  position: relative;
+  padding-top: 22px; /* 🔸 добавляем место под верхнюю подсказку */
+}
+
+/* Намёки на горизонтальный скролл (две подсказки — сверху и снизу) */
+.neo-table::before,
+.neo-table::after {
+  content: "← сдвиньте чтобы посмотреть →";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  color: rgba(0,0,0,0.55); /* чуть заметнее, чем раньше */
+  background: rgba(255,255,255,0.9);
+  padding: 3px 8px;
+  border-radius: 6px;
+  pointer-events: none;
+  opacity: 0;
+  white-space: nowrap;
+  transition: opacity .3s ease;
+}
+
+/* Верхняя подсказка */
+.neo-table::before {
+  top: -8px; /* 🔸 над таблицей, не перекрывает */
+}
+
+/* Нижняя подсказка */
+.neo-table::after {
+  bottom: 4px;
+}
+
+/* Показываем подсказки на узких экранах */
+@media (max-width: 768px) {
+  .neo-table::before,
+  .neo-table::after {
+    opacity: 1;
+    animation: hintScroll 3s ease-in-out 1;
+  }
+}
+
+/* Эффект появления/затухания подсказки */
+@keyframes hintScroll {
+  0% { opacity: 0; transform: translateX(-45%) translateY(6px); }
+  10% { opacity: 1; transform: translateX(-50%) translateY(0); }
+  80% { opacity: 1; }
+  100% { opacity: 0; transform: translateX(-55%) translateY(-6px); }
+}
+
+/* Остальные стили таблицы */
+.neo-table table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  min-width: 640px;
+}
+.neo-table th,
+.neo-table td {
+  padding: 10px 12px;
+  vertical-align: top;
+  text-align: left;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+  border-bottom: 1px solid #eee;
+}
+
+
+
+
+
+
+
+</style>
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=104699306', 'ym');
+
+    ym(104699306, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="watch/104699306" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+
+<body>
+  <header>
+  <div class="container">
+    <div class="nav" id="nav">
+      <a href="/" class="brand" aria-label="На главную">
+        <svg viewbox="0 0 64 64" fill="none" aria-hidden="true">
+          <path d="M32 6c6 0 10 5 10 11 0 5-3 9-7 10v6h9a3 3 0 0 1 0 6h-9v15a3 3 0 1 1-6 0V39h-9a3 3 0 0 1 0-6h9v-6c-4-1-7-5-7-10 0-6 4-11 10-11Z" fill="currentColor"></path>
+        </svg>
+        <span>Курсы по наращиванию волос</span>
+      </a>
+
+      <!-- Гамбургер -->
+      <button class="nav-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="primary-menu">
+        <span class="burger" aria-hidden="true"></span>
+      </button>
+
+      <nav class="nav-links" id="primary-menu" aria-label="Главная навигация">
+        <a href="/">На главную</a>
+        <!--<a href="/">Второй пункт</a>-->
+
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+
+  <!-- ====== Hero ====== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <div>
+          <span class="tag">
+            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M20 4c-2 2-7 8-9 11-2 3-4 5-5 4s1-3 4-5c3-2 9-7 11-9-3 3-9 9-12 12s-5 5-6 4 1-3 4-6S17 5 20 2" stroke="currentColor" stroke-linecap="round"></path>
+            </svg>
+            Профессия в сфере красоты
+          </span>
+          <h1 class="title">Обучение наращиванию волос</h1>
+          <p class="subtitle">
+Освойте востребованную профессию мастера по наращиванию волос с нуля и получи официальный диплом или сертификат специалиста. На курсах вы научитесь всем современным техникам наращивания, подбора оттенков и уходу за волосами. Обучение проходит с практикой на моделях под руководством опытных преподавателей. После завершения курса вы сможете уверенно работать в салоне красоты или начать карьеру частного мастера.          </p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#cities">Выберите ваш город</a>
+            
+          </div>
+        </div>
+
+<div class="hero-card">
+  <div class="stitches" aria-hidden="true"></div>
+  <div class="figure" role="img" aria-label="Обучение наращиванию волос">
+    <img src="default.jpg" alt="Обучение наращиванию волос — мастер работает с прядями" loading="lazy">
+  </div>
+  <div class="figure-caption">Точные техники + аккуратность мастера = идеальное наращивание</div>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== About ====== -->
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">Обучение наращиванию волос</h2>
+    <p class="lede">
+      Курсы наращивания волос — это профессиональное обучение для тех, кто хочет освоить современную и востребованную бьюти-профессию с нуля. На занятиях вы изучите все технологии наращивания, научитесь подбирать пряди, создавать натуральный объём и безопасно работать с волосами клиентов.
+    </p>
+
+    <div class="cards" role="list">
+      <article class="card" role="listitem">
+        <div class="eyebrow">Программа курса</div>
+        <h3>От теории до практики</h3>
+        <p>Структура обучения включает знакомство с материалами, изучение капсульных, ленточных и микрокапсульных техник, а также практику на моделях под контролем опытных мастеров.</p>
+      </article>
+      <article class="card" role="listitem">
+        <div class="eyebrow">Навыки</div>
+        <h3>Профессиональный подход к работе с волосами</h3>
+        <p>Вы научитесь подбирать цвет и структуру прядей, делать коррекцию и снятие без повреждения волос, а также давать клиентам рекомендации по уходу за наращенными волосами.</p>
+      </article>
+      <article class="card" role="listitem">
+        <div class="eyebrow">Результат</div>
+        <h3>Диплом и старт карьеры</h3>
+        <p>После завершения курса вы получите диплом или сертификат мастера по наращиванию волос и сможете работать в салоне красоты или открыть собственную практику.</p>
+      </article>
+    </div>
+
+    <div class="note" style="margin-top:18px">
+      <strong>Обучение наращиванию волос</strong> подойдёт новичкам без опыта и мастерам, желающим повысить квалификацию. Практика, живые модели и поддержка преподавателей помогут быстро выйти на профессиональный уровень.
+    </div>
+  </div>
+</section>
+
+
+ <!-- ====== Skills ====== -->
+<section id="skills">
+  <div class="container">
+    <h2 class="section-title">Чему вы научитесь на курсах наращивания волос</h2>
+    <ul class="list">
+      <li>Освоите основные техники: капсульное, микрокапсульное, ленточное и трессовое наращивание</li>
+      <li>Научитесь подбирать волосы по структуре, цвету и длине для естественного результата</li>
+      <li>Овладеете работой с профессиональными инструментами и материалами</li>
+      <li>Узнаете, как безопасно снимать и корректировать наращивание</li>
+      <li>Изучите правила стерилизации и ухода за инструментами</li>
+      <li>Научитесь выстраивать доверительное общение с клиентами и давать рекомендации по уходу</li>
+    </ul>
+
+    <div class="cards" style="margin-top:8px">
+      <article class="card">
+        <h3>Максимум практики с первых дней</h3>
+        <p>Каждое занятие включает практическую отработку техник на манекенах и моделях, чтобы вы сразу приобрели уверенность в движениях и точность работы.</p>
+      </article>
+      <article class="card">
+        <h3>Глубокое понимание структуры волос</h3>
+        <p>Вы узнаете особенности славянских, европейских и азиатских типов волос, научитесь подбирать подходящие пряди, а также корректно окрашивать и ухаживать за ними.</p>
+      </article>
+      <article class="card">
+        <h3>Совершенство в деталях</h3>
+        <p>Каждая прядь должна ложиться идеально — без узлов, утолщений и видимых креплений. Мы научим вас точности, аккуратности и профессиональной эстетике выполнения работы.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ====== Courses ======
+  <section id="courses">
+    <div class="container">
+      <h2 class="section-title">Курсы по наращиванию волос</h2>
+      <p class="lede">Подборка обучающих программ для начинающих и профессионалов — офлайн и онлайн.</p>
+
+      <div class="course-grid" role="list">
+        <article class="course" role="listitem">
+          <span class="course-badge">Для новичков</span>
+          <h3>Базовый курс "Наращивание волос с нуля"</h3>
+          <p class="small">Изучите капсульное и ленточное наращивание, подбор волос, технику крепления и снятия.</p>
+          <a href="#" rel="nofollow sponsored">Подробнее</a>
+        </article>
+
+        <article class="course" role="listitem">
+          <span class="course-badge">Продвинутый</span>
+          <h3>Микрокапсульное и комбинированное наращивание</h3>
+          <p class="small">Идеально для мастеров, которые хотят повысить квалификацию и освоить современные методики.</p>
+          <a href="#" rel="nofollow sponsored">Подробнее</a>
+        </article>
+
+        <article class="course" role="listitem">
+          <span class="course-badge">Онлайн</span>
+          <h3>Авторская программа по коррекции и уходу</h3>
+          <p class="small">Видео-уроки, отработка на моделях, консультации от наставников и сертификат.</p>
+          <a href="#" rel="nofollow sponsored">Подробнее</a>
+        </article>
+      </div>
+
+      <div class="note" style="margin-top:16px">
+        <strong>Важно:</strong> мы отбираем только те курсы, где есть практика, обратная связь и поддержка учеников после обучения.
+      </div>
+    </div>
+  </section>
+
+  -- ====== Cities ====== -->
+  <section id="cities">
+    <div class="container">
+      <h2 class="section-title">Курсы наращивания волос в городах России</h2>
+      <p class="lede">Выберите город, чтобы перейти на страницу с подборкой курсов:</p>
+
+      <ul class="city-grid" role="list">
+        <li><a href="tyumen.html">Тюмень</a></li>
+        <li><a href="ufa.html">Уфа</a></li>
+        <li><a href="khimki.html">Химки</a></li>
+        <li><a href="chelyabinsk.html">Челябинск</a></li>
+        <li><a href="yaroslavl.html">Ярославль</a></li>
+        <li><a href="barnaul.html">Барнаул</a></li>
+        <li><a href="vladivostok.html">Владивосток</a></li>
+        <li><a href="ekaterinburg.html">Екатеринбург</a></li>
+        <li><a href="ivanovo.html">Иваново</a></li>
+        <li><a href="izhevsk.html">Ижевск</a></li>
+        <li><a href="irkutsk.html">Иркутск</a></li>
+        <li><a href="kazan.html">Казань</a></li>
+        <li><a href="krasnoyarsk.html">Красноярск</a></li>
+        <li><a href="kurgan.html">Курган</a></li>
+        <li><a href="moskva.html">Москва</a></li>
+        <li><a href="novokuznetsk.html">Новокузнецк</a></li>
+        <li><a href="novy-urengoy.html">Новый Уренгой</a></li>
+        <li><a href="orenburg.html">Оренбург</a></li>
+        <li><a href="orsk.html">Орск</a></li>
+        <li><a href="penza.html">Пенза</a></li>
+        <li><a href="rostov-na-donu.html">Ростов-на-Дону</a></li>
+        <li><a href="ryazan.html">Рязань</a></li>
+        <li><a href="samara.html">Самара</a></li>
+        <li><a href="saratov.html">Саратов</a></li>
+        <li><a href="stavropol.html">Ставрополь</a></li>
+        <li><a href="surgut.html">Сургут</a></li>
+        <li><a href="tver.html">Тверь</a></li>
+        <li><a href="tolyatti.html">Тольятти</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ====== FAQ ====== -->
+  <section id="faq">
+    <div class="container">
+      <h2 class="section-title">Частые вопросы</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Можно ли научиться без опыта работы в салоне?</h3>
+          <p>Да, обучение рассчитано на новичков. Достаточно внимательности и желания работать с людьми.</p>
+        </article>
+        <article class="card">
+          <h3>Сколько времени нужно, чтобы начать зарабатывать?</h3>
+          <p>Уже после 1–2 месяцев практики можно брать первых клиентов под контролем наставника.</p>
+        </article>
+        <article class="card">
+          <h3>Какая техника лучше — капсульная или ленточная?</h3>
+          <p>Это зависит от типа волос и образа клиента. На курсах вы научитесь подбирать технику под задачу.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+<footer>
+  <div class="container" style="text-align:center; padding:36px 0;">
+    <p class="small" style="margin:0 0 8px;">
+      Лучшие курсы по наращиванию волос
+    </p>
+    <a href="/privacy.html" class="small" style="color:var(--muted); text-decoration:none;">
+      Политика конфиденциальности
+    </a>
+  </div>
+</footer>
+
+<!-- Cookie Notice -->
+<div id="cookieNotice" style="
+  position:fixed;
+  bottom:16px; left:50%;
+  transform:translateX(-50%);
+  background:rgba(255,255,255,0.95);
+  color:var(--ink);
+  border:1px solid var(--line);
+  border-radius:12px;
+  box-shadow:var(--ring);
+  padding:10px 16px;
+  font-size:.85rem;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  z-index:200;
+  max-width:90%;
+">
+  <span>
+    Мы используем cookie для улучшения работы сайта.
+    Подробнее — <a href="privacy.html" style="color:var(--brand); text-decoration:none;">в политике конфиденциальности</a>.
+  </span>
+  <button id="cookieBtn" style="
+    background:var(--brand);
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    padding:6px 10px;
+    font-size:.8rem;
+    cursor:pointer;
+  ">OK</button>
+</div>
+
+<script>
+  // скрыть/показать cookie notice
+  (function(){
+    const box = document.getElementById('cookieNotice');
+    const btn = document.getElementById('cookieBtn');
+    if(localStorage.getItem('cookieAccepted')) box.remove();
+    else btn.addEventListener('click', ()=>{
+      localStorage.setItem('cookieAccepted','1');
+      box.style.opacity='0';
+      setTimeout(()=>box.remove(),300);
+    });
+  })();
+
+  // плавный скролл
+  document.querySelectorAll('a[href^="#"]').forEach(a=>{
+    a.addEventListener('click', e=>{
+      const id=a.getAttribute('href').slice(1);
+      const el=document.getElementById(id);
+      if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth', block:'start'}); }
+    });
+  });
+
+  // гамбургер
+  (function(){
+    const nav = document.getElementById('nav');
+    const btn = document.getElementById('menuToggle');
+    const menu = document.getElementById('primary-menu');
+    if(!nav || !btn || !menu) return;
+
+    function toggle(){
+      nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', nav.classList.contains('open'));
+    }
+    btn.addEventListener('click', toggle);
+    menu.addEventListener('click', e=>{
+      if(e.target.closest('a')){ nav.classList.remove('open'); btn.setAttribute('aria-expanded','false'); }
+    });
+    document.addEventListener('click', e=>{
+      if(nav.classList.contains('open') && !nav.contains(e.target)){
+        nav.classList.remove('open'); btn.setAttribute('aria-expanded','false');
+      }
+    });
+    document.addEventListener('keydown', e=>{
+      if(e.key==='Escape'){ nav.classList.remove('open'); btn.setAttribute('aria-expanded','false'); }
+    });
+  })();
+</script>
+
+</body>
+</html>

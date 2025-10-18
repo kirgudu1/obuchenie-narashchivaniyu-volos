@@ -1,0 +1,128 @@
+Uri: https://massazh-kursy.ru/
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\index.htm
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/barnaul.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\barnaul.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/chelyabinsk.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\chelyabinsk.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/default.jpg
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\default.jpg
+Content Type: image/jpeg
+
+Uri: https://massazh-kursy.ru/ekaterinburg.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\ekaterinburg.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/irkutsk.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\irkutsk.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/ivanovo.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\ivanovo.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/izhevsk.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\izhevsk.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/kazan.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\kazan.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/khimki.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\khimki.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/krasnoyarsk.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\krasnoyarsk.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/kurgan.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\kurgan.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/moskva.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\moskva.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/novokuznetsk.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\novokuznetsk.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/novy-urengoy.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\novy-urengoy.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/orenburg.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\orenburg.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/orsk.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\orsk.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/penza.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\penza.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/privacy.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\privacy.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/rostov-na-donu.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\rostov-na-donu.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/ryazan.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\ryazan.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/samara.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\samara.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/saratov.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\saratov.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/stavropol.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\stavropol.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/surgut.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\surgut.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/tolyatti.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\tolyatti.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/tver.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\tver.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/tyumen.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\tyumen.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/ufa.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\ufa.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/vladivostok.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\vladivostok.php.html
+Content Type: text/html
+
+Uri: https://massazh-kursy.ru/yaroslavl.php
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\yaroslavl.php.html
+Content Type: text/html
+
+Uri: https://mc.yandex.ru/watch/104699306
+File Name: C:\Downloaded Web Sites\massazh-kursy.ru\watch\104699306
+Content Type: image/gif
+
