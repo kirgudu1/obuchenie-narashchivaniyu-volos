@@ -1,128 +1,128 @@
-Uri: https://massazh-kursy.ru/
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\index.htm
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\index.htm
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/barnaul.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\barnaul.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/barnaul.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\barnaul.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/chelyabinsk.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\chelyabinsk.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/chelyabinsk.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\chelyabinsk.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/default.jpg
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\default.jpg
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/default.jpg
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\default.jpg
 Content Type: image/jpeg
 
-Uri: https://massazh-kursy.ru/ekaterinburg.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\ekaterinburg.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/ekaterinburg.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\ekaterinburg.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/irkutsk.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\irkutsk.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/irkutsk.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\irkutsk.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/ivanovo.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\ivanovo.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/ivanovo.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\ivanovo.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/izhevsk.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\izhevsk.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/izhevsk.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\izhevsk.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/kazan.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\kazan.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/kazan.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\kazan.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/khimki.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\khimki.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/khimki.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\khimki.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/krasnoyarsk.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\krasnoyarsk.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/krasnoyarsk.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\krasnoyarsk.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/kurgan.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\kurgan.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/kurgan.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\kurgan.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/moskva.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\moskva.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/moskva.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\moskva.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/novokuznetsk.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\novokuznetsk.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/novokuznetsk.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\novokuznetsk.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/novy-urengoy.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\novy-urengoy.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/novy-urengoy.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\novy-urengoy.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/orenburg.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\orenburg.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/orenburg.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\orenburg.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/orsk.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\orsk.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/orsk.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\orsk.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/penza.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\penza.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/penza.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\penza.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/privacy.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\privacy.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/privacy.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\privacy.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/rostov-na-donu.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\rostov-na-donu.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/rostov-na-donu.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\rostov-na-donu.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/ryazan.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\ryazan.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/ryazan.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\ryazan.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/samara.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\samara.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/samara.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\samara.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/saratov.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\saratov.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/saratov.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\saratov.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/stavropol.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\stavropol.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/stavropol.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\stavropol.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/surgut.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\surgut.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/surgut.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\surgut.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/tolyatti.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\tolyatti.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/tolyatti.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\tolyatti.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/tver.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\tver.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/tver.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\tver.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/tyumen.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\tyumen.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/tyumen.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\tyumen.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/ufa.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\ufa.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/ufa.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\ufa.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/vladivostok.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\vladivostok.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/vladivostok.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\vladivostok.php.html
 Content Type: text/html
 
-Uri: https://massazh-kursy.ru/yaroslavl.php
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\yaroslavl.php.html
+Uri: https://obuchenie-narashchivaniyu-volos.vercel.app/yaroslavl.php
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\yaroslavl.php.html
 Content Type: text/html
 
 Uri: https://mc.yandex.ru/watch/104699306
-File Name: C:\Downloaded Web Sites\massazh-kursy.ru\watch\104699306
+File Name: C:\Downloaded Web Sites\obuchenie-narashchivaniyu-volos.vercel.app\watch\104699306
 Content Type: image/gif
 
